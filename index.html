@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav> <!-- Menú de navegación fijo -->
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+            <li><a href="#productos">Productos y Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#trabaja">Trabaja con nosotros</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Bienvenido a Gym Store</h1>
+        <p>Mejora tu entrenamiento con los mejores productos de Fitness</p>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a Gym Store</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum culpa non voluptatem quas 
+            provident debitis iusto qui, nesciunt 
+            dolor! Quos modi, cupiditate officiis sed hic impedit! Hic exercitationem rerum itaque!
+        </p>
+        <img class="img-inicio" src="imagenes/gym_banner.jpg" alt="Imagen destacada de gimnasio">
+        <br><br>
+        <a href=#productos class="btn">Ver productos</a>
+    </section>
+
+    <section id="quienes-somos">
+        <h2>¿Quiénes somos?</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quas quisquam atque qui autem rerum voluptatibus explicabo, quibusdam quos animi eius nobis fugit delectus non nulla officiis cum in veritatis.
+        </p>
+        <div class="galeria">
+            <img src="imagenes/equipo-1.jpg" alt="Equipo de trabajo 1">
+            <img src="imagenes/equipo-2.jpg" alt="Equipo de trabajo 2">
+            <img src="imagenes/equipo-3.jpg" alt="Equipo de trabajo 3">
+        </div>
+        <br>
+        <h3>Conoce más sobre nosotros</h3>
+        <video controls>
+            <source src="imagenes/Spot%20publicitario%20para%20gimnasio%20CAF%20FITNESS.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="productos">
+        <h2>Productos y Servicios</h2>
+        <p>
+            Descubre nuestra variedad de productos para mejorar tu entrenamiento
+        </p>
+        <div class="galeria-productos">
+            <div class="producto">
+                <img src="imagenes/producto-1-pesa.png" alt="Producto 1">
+                <h3>Set de pesas</h3>
+                <p>Conjunto de pesas ajustables para entrenamientos variados</p>
+            </div>
+            <div class="producto">
+                <img src="imagenes/producto-2-yoga.jpg" alt="Producto 2">
+                <h3>Esterilla de Yoga</h3>
+                <p>Esterilla antideslizante ideal para yoga y pilates</p>
+            </div>
+            <div class="producto">
+                <img src="imagenes/producto-3-banda.jpg" alt="Producto 3">
+                <h3>Banda Elástica</h3>
+                <p>Banda de resistencia para entrenamientos de fuerza.</p>
+            </div>
+        </div>
+        <h3>Lista de productos</h3>
+        <table>
+            <tr>
+                <th>Producto</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Set de pesas</td>
+                <td>Conjunto de pesas ajustables para entrenamientos variados</td>
+                <td>39.00€</td>
+            </tr>
+            <tr>
+                <td>Esterilla de Yoga</td>
+                <td>Esterilla antideslizante ideal para yoga y pilates</td>
+                <td>24.99€</td>
+            </tr>
+            <tr>
+                <td>Banda Elástica</td>
+                <td>Banda de resistencia para entrenamientos de fuerza</td>
+                <td>15.99€</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+            Puedes comunicarte con nosotros a través de los siguientes medios:
+        </p>
+        <div class="info-contacto">
+            <p><strong>Teléfono:</strong>+34 600 123 456</p>
+            <p><strong>Email:</strong>contacto@gymstore.com</p>
+            <p><strong>Dirección:</strong>Calle Lagos 123, Málaga, España.</p>
+        </div>
+        <h3>Ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.6993723984947!2d-4.4558124999999995!3d36.6817286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f9c3e2384033%3A0x333398601bb40f58!2sC.%20Concha%20Lagos%2C%20Carretera%20de%20C%C3%A1diz%2C%2029004%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1740129371075!5m2!1ses!2ses" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>Solicita información</h3>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre-info" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email-info" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono-info" required>
+
+            <label for="mensaje-info">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje-info" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="trabaja">
+        <h2>Trabaja con nosotros</h2>
+        <p>
+            Únete a nuestro equipo. Completa el siguiente formulario y envíanos tu información
+        </p>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni" required>
+
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad" required>
+
+                <label for="nacionalidad">Nacionalidad:</label>
+                <input type="text" name="nacionalidad" id="nacionalidad" required>
+
+                <label for="codigo_postal">Código postal:</label>
+                <input type="text" name="codigo_postal" id="codigo_postal" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Formación:</legend>
+
+                <label for="titulacion">Titulación:</label>
+                <input type="text" name="titulacion" id="titulacion" required>
+
+                <label for="comienzo">Año de inicio:</label>
+                <input type="date" name="comienzo" id="comienzo" required>
+
+                <label for="fin">Año de finalización:</label>
+                <input type="date" name="fin" id="fin" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Idiomas:</legend>
+
+                <label for="idioma">Idioma:</label>
+                <input type="text" name="idioma" id="idioma" required>
+
+                <label>Hablado:</label>
+                <select name="hablado">
+                    <option value="excelente">Excelente</option>
+                    <option value="bien">Bien</option>
+                    <option value="regular">Regular</option>
+                    <option value="nada">Nada</option>
+                </select>
+
+                <label>Escrito:</label>
+                <select name="escrito">
+                    <option value="excelente">Excelente</option>
+                    <option value="bien">Bien</option>
+                    <option value="regular">Regular</option>
+                    <option value="nada">Nada</option>
+                </select>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>También puedes visitarnos en:</p>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Tiktok</a>
+    </footer>
+
+</body>
+</html>

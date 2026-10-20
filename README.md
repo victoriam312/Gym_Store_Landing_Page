@@ -16,7 +16,7 @@ Simula el portal web de una tienda de productos fitness, con el objetivo princip
 * **Formularios Avanzados:** Creación de dos formularios completos:
     * Un formulario de contacto simple.
     * Un formulario de aplicación de empleo estructurado con diferentes tipos de entrada (`tel`, `date`, `file`) y agrupaciones (`<fieldset>`, `<legend>`).
-* **Manejo Multimedia:** Inclusión y gestión de imágenes de productos y un vídeo de fondo.
+* **Manejo Multimedia:** Galerías de imágenes de productos y del equipo, optimizadas para web.
 
 ## Tecnologías Utilizadas
 
